@@ -1,0 +1,193 @@
+{
+  "emp": [
+    {
+      "name": "Rajkiran",
+      "email": "rajjaiswar1256@gmail.com",
+      "gender": "Male",
+      "department": "Not sure",
+      "contact": 896876767,
+      "salary": 20000,
+      "id": 2
+    },
+    {
+      "name": "Geoffrey Ellis",
+      "email": "nunc@outlook.net",
+      "gender": "Male",
+      "department": "HR",
+      "contact": 9455454645,
+      "salary": 30000,
+      "id": 3
+    },
+    {
+      "name": "Ellis",
+      "email": "sociis.natoque@outlook.net",
+      "gender": "Female",
+      "department": "Manager",
+      "contact": 905356677,
+      "salary": 35000,
+      "id": 4
+    },
+    {
+      "name": "Tara Soto",
+      "email": "at.sem@outlook.com",
+      "gender": "Male",
+      "department": "Manager",
+      "contact": 987875654,
+      "salary": 50000,
+      "id": 5
+    },
+    {
+      "name": "Alden Simpson",
+      "email": "mi.lorem@outlook.net",
+      "gender": "Male",
+      "department": "Tester",
+      "contact": 839879909,
+      "salary": 30000,
+      "id": 6
+    },
+    {
+      "name": "Ferris Chang",
+      "email": "libero@outlook.couk",
+      "gender": "Male",
+      "department": "Developer",
+      "contact": 978977550,
+      "salary": 70000,
+      "id": 7
+    },
+    {
+      "name": "Maya Morrow",
+      "email": "fringilla@google.net",
+      "gender": "Female",
+      "department": "Developer",
+      "contact": 856867545,
+      "salary": 80000,
+      "id": 8
+    },
+    {
+      "name": "Len Ball",
+      "email": "lacus.nulla@google.com",
+      "gender": "Male",
+      "department": "Developer",
+      "contact": 976857454,
+      "salary": 40000,
+      "id": 9
+    },
+    {
+      "name": "Lila Spencer",
+      "email": "turpis@hotmail.org",
+      "gender": "Female",
+      "department": "Developer",
+      "contact": 834564565,
+      "salary": 25000,
+      "id": 10
+    },
+    {
+      "name": "Alika Chang",
+      "email": "nunc.ut@google.com",
+      "gender": "Female",
+      "department": "Tester",
+      "contact": 9345656754,
+      "salary": 29000,
+      "id": 11
+    },
+    {
+      "name": "Velma Fowler",
+      "email": "faucibus.id@icloud.edu",
+      "gender": "Female",
+      "department": "HR",
+      "contact": 935464564,
+      "salary": 35000,
+      "id": 12
+    },
+    {
+      "name": "Ella Mcintyre",
+      "email": "elit.fermentum@google.org",
+      "gender": "Female",
+      "department": "Developer",
+      "contact": 874735645,
+      "salary": 36000,
+      "id": 13
+    },
+    {
+      "name": "Clayton Stokes",
+      "email": "suspendisse@yahoo.org",
+      "gender": "Male",
+      "department": "Tester",
+      "contact": 976456345,
+      "salary": 45000,
+      "id": 14
+    },
+    {
+      "name": "Judith Butler",
+      "email": "molestie.pharetra@outlook.net",
+      "gender": "Male",
+      "department": "Developer",
+      "contact": 787467565,
+      "salary": 45000,
+      "id": 15
+    },
+    {
+      "name": "Amena Adkins",
+      "email": "ante.bibendum@hotmail.net",
+      "gender": "Male",
+      "department": "Developer",
+      "contact": 674674567,
+      "salary": 25000,
+      "id": 16
+    },
+    {
+      "name": "Chantale Guerrero",
+      "email": "cubilia.curae@yahoo.net",
+      "gender": "Male",
+      "department": "Manager",
+      "contact": 956745676,
+      "salary": 65000,
+      "id": 17
+    },
+    {
+      "name": "Kimberly Webb",
+      "email": "ac.mattis@hotmail.couk",
+      "gender": "Female",
+      "department": "Developer",
+      "contact": 867467435,
+      "salary": 45000,
+      "id": 18
+    },
+    {
+      "name": "Leilani Baldwin",
+      "email": "sit.amet@yahoo.org",
+      "gender": "Male",
+      "department": "HR",
+      "contact": 84654643,
+      "salary": 34000,
+      "id": 19
+    },
+    {
+      "name": "Joseph Vang",
+      "email": "per@hotmail.couk",
+      "gender": "Male",
+      "department": "Tester",
+      "contact": 968784654,
+      "salary": 43000,
+      "id": 20
+    },
+    {
+      "name": "Xander Greene",
+      "email": "at.pretium@hotmail.edu",
+      "gender": "Female",
+      "department": "Developer",
+      "contact": 945635644,
+      "salary": 35000,
+      "id": 21
+    }
+  ],
+
+  "authenticate": [
+    {
+      "id":1,
+      "username":"rajkiran",
+      "email":"rajkiran@gmail.com",
+      "password":"rajkiran"
+    }
+  ]
+}

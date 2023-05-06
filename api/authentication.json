@@ -1,0 +1,58 @@
+{
+  "authenticate": [
+    {
+      "id": 1,
+      "username": "rajkiran",
+      "email": "rajkiran@gmail.com",
+      "password": "rajkiran"
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "username": "rahul",
+      "email": "rajjaiswar1256@gmail.com",
+      "password": "rahul",
+      "id": 3
+    },
+    {
+      "username": "neha",
+      "email": "neha@gmail.com",
+      "password": "neha",
+      "id": 4
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "id": 7
+    },
+    {
+      "username": "arun",
+      "email": "arun@gmail.com",
+      "password": "arun",
+      "id": 8
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "id": 9
+    }
+  ]
+}

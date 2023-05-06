@@ -1,0 +1,10 @@
+{
+    "authenticate": [
+      {
+        "id":1,
+        "username":"rajkiran",
+        "email":"rajkiran@gmail.com",
+        "password":"rajkiran"
+      }
+    ]
+  }

@@ -1,0 +1,148 @@
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+.body{
+    background-color: black;
+    padding: 50px;
+    height: 100vh;
+}
+.details{
+    background-color: rgb(61, 61, 61);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 3px soild red;
+}
+
+.head{
+    color: rgb(253, 0, 0);
+}
+.searchinput{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    
+}
+::placeholder{
+    color: #fff;
+}
+.search{
+    border: 3px solid red;
+    border-radius: 20px;
+    padding-right: 50px;
+    -webkit-box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.603);
+            box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.603);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.822);
+}
+.search i{
+    padding: 10px;
+    color: red;
+}
+.btn{
+    background: transparent;
+    border: 2.7px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    width: 50px;
+    outline: none;
+    color: #fff;
+    -webkit-box-shadow: 2.3px 2.3px 3px rgba(255, 255, 255, 0.603);
+            box-shadow: 2.3px 2.3px 3px rgba(255, 255, 255, 0.603);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.822);
+}
+.form-btn{
+    background: transparent;
+    border: 2.7px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    outline: none;
+    color: #fff;
+    -webkit-box-shadow: 2.3px 2.3px 3px rgba(255, 255, 255, 0.603);
+            box-shadow: 2.3px 2.3px 3px rgba(255, 255, 255, 0.603);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.822);
+}
+.form-btn-add{
+    background: red;
+    border: 2.7px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    outline: none;
+    color: #fff;
+    -webkit-box-shadow: 2.3px 2.3px 3px rgba(255, 255, 255, 0.603);
+            box-shadow: 2.3px 2.3px 3px rgba(255, 255, 255, 0.603);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.822);
+}
+
+
+.btn:hover{
+    color:#fff;
+    background-color: red;
+    border: 3px solid #fff;
+    // transition: ease all 0.5s;
+
+}
+.emp-btn{
+    background: transparent;
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    -webkit-box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.603);
+            box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.603);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.822);
+}
+
+th{
+    font-size: 23px;
+}
+
+td{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.822);
+    // padding: 15px;
+    font-size: 17px;
+}
+
+.input input{
+    background: transparent;
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 15px;
+    width: 350px;
+    outline-color: #fff;
+    color: #fff;
+    -webkit-box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.603);
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.603);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.822);
+}
+
+
+pagination-controls {
+    color:red;
+    background-color: #808080;
+       
+}
+
+
+.btn-edit{
+    background: transparent;
+    border: 3px solid rgb(0, 206, 0);
+    border-radius: 20px;
+    padding: 10px;
+    width: 50px;
+    outline: none;
+    color: #fff;
+    -webkit-box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.603);
+            box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.603);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.822);
+}
+.btn-edit:hover{
+    color:#fff;
+    background-color: rgb(0, 206, 0);
+    border: 3px solid #fff;
+}

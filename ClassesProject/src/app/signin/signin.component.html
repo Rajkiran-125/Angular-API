@@ -1,0 +1,31 @@
+
+
+<!-- <h1>SignIn</h1>
+<br><br>
+
+<form [formGroup]="signin" (submit)="login()"> 
+    <input type="text" name="username" formControlName="username" placeholder="Enter UserName"><br><br>
+    <input type="text" name="password" formControlName="password" placeholder="Enter Password"><br><br>
+    <input type="submit" value="SignIn">
+    <a routerLink="/signup">SignUp</a>
+</form> -->
+
+
+<div class="body">
+
+    
+    <div class="position-absolute top-50 start-50 translate-middle form">
+        <h1>SignIn</h1>
+        <br>
+    
+        <form [formGroup]="signin" (submit)="login()">
+            <input type="text" formControlName="username" name="username" placeholder="Enter UserName"><br><br>
+            <input type="text" formControlName="password" name="password" placeholder="Enter Password"><br><br>
+            <input class="button" type="submit" value="SignIn">
+        </form>
+        <br><br>
+        <h4>Don't Have Account &nbsp; <a routerLink="/signup">SingUp</a></h4>
+    
+    </div>
+    
+    </div>

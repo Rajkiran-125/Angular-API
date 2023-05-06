@@ -1,0 +1,154 @@
+<div class="body">
+
+    <!-- Button trigger modal -->
+    <div class="details">
+
+        <div class="d-flex justify-content-between">
+            <button type="button" class="emp-btn btn btn-outline" data-bs-toggle="modal" data-bs-target="#exampleModal" *ngIf="login()">
+                Add Employee
+            </button>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="searchinput" type="text" placeholder="Search Here . . ." [(ngModel)]="search">
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade body" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content details">
+
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Add Employee</h1>
+
+                    <div class="modal-body input">
+                         <form [formGroup]="details" (ngSubmit)="addusers(details.value)">
+                            <div class="mb-3">
+                                <input type="text" formControlName="name" name="name" placeholder="Enter Name"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" formControlName="email" placeholder="Enter Email">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" name="gender" formControlName="gender" placeholder="Enter Gender">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" name="department" formControlName="department"
+                                    placeholder="Enter deparment">
+                                    <!-- <select>
+                                        <option *ngFor="let i of department" [value]="i">{{i}}</option>
+                                    </select> -->
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" name="contact" formControlName="contact"
+                                    placeholder="Enter Contact">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="number" name="salary" formControlName="salary"
+                                    placeholder="Enter Salary">
+                            </div>
+                            <br>
+                            <button type="button" class="btn form-btn" data-bs-dismiss="modal">Close</button>
+                            &nbsp; &nbsp;
+                            <button type="submit" class="btn form-btn-add" data-bs-dismiss="modal">Add</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- model2 -->
+        <div class="modal fade body" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content details">
+
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Update Employee</h1>
+                   
+                    <div class="modal-body input">
+                        <form [formGroup]="details">
+                            <div class="mb-3">
+                                <input type="text" formControlName="name" name="name" placeholder="Enter Your Name"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" formControlName="email" placeholder="Enter Your Email">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" name="gender" formControlName="gender" placeholder="Enter Gender">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" name="department" formControlName="department"
+                                    placeholder="Enter Your deparment">
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" name="contact" formControlName="contact"
+                                    placeholder="Enter Your Contact">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="number" name="salary" formControlName="salary"
+                                    placeholder="Enter Your Salary">
+                            </div>
+                            <br>
+
+                                <button type="button" class="btn form-btn" data-bs-dismiss="modal">Close</button>
+                                &nbsp; &nbsp;
+                                <button type="submit" class="btn form-btn-add" data-bs-dismiss="modal"
+                                    (click)="update()">Update</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <!-- table -->
+
+        <table class="table text-light">
+            <thead class="head">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Conatct</th>
+                    <th scope="col" *ngIf="login()">Salary</th>
+                    <th scope="col" *ngIf="login()">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let x of mydata | filter:search | paginate:{itemsPerPage:7,currentPage:p}">
+                    <th scope="row">{{x.id}}</th>
+                    <td>{{x.name}}</td>
+                    <td>{{x.email}}</td>
+                    <td>{{x.gender}}</td>
+                    <td>{{x.department}}</td>
+                    <td>{{x.contact}}</td>
+                    <td *ngIf="login()">{{x.salary}}</td>
+                    <td *ngIf="login()">
+                        <button type="button" class="btn" (click)="deluser(x.id)"><i
+                                class="fa-sharp fa-solid fa-trash"></i></button>
+                        &nbsp; &nbsp;
+                        <button type="button" class="btn btn-edit" (click)="editemp(x)" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal2"><i class="fa-solid fa-pen"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+            
+            <pagination-controls (pageChange)="p=$event"></pagination-controls>
+
+    </div>
+
+</div>
